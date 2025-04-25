@@ -15,11 +15,11 @@ echo ""
 read -p "Digite o número correspondente: " tipo
 
 case $tipo in
-  1) prefixo="beecrowd" ;;
-  2) prefixo="codeforces" ;;
-  3) prefixo="ag" ;;
-  4) prefixo="leetcode" ;;
-  5) prefixo="docs" ;;
+  1) prefixo="BeeCrowd" ;;
+  2) prefixo="CodeForces" ;;
+  3) prefixo="AG" ;;
+  4) prefixo="LeetCode" ;;
+  5) prefixo="Docs" ;;
   *) echo "❌ Tipo inválido"; exit 1 ;;
 esac
 
