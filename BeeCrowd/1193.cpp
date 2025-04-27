@@ -1,56 +1,55 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int bin_to_dec(const string& bin) {
-    int result = 0;
-    for (char c : bin) {
-        result = result * 2 + (c - '0');
+unsigned parse(const string &s, int base) {
+    unsigned v = 0;
+    for (char c : s) {
+        v = v * base + (isdigit(c) ? c - '0' : tolower(c) - 'a' + 10);
     }
-    return result;
+    return v;
 }
 
-string dec_to_bin(int n) {
-    string res;
-    while (n > 0) {
-        res += (n % 2) + '0';
-        n /= 2;
+string toHex(unsigned v) {
+    if (v == 0) return "0";
+    string r;
+    while (v) {
+        unsigned d = v % 16;
+        r.push_back(d < 10 ? '0' + d : 'a' + d - 10);
+        v /= 16;
     }
-    reverse(res.begin(), res.end());
-    return res.empty() ? "0" : res;
+    reverse(r.begin(), r.end());
+    return r;
+}
+
+string toBin(unsigned v) {
+    if (v == 0) return "0";
+    string r;
+    while (v) {
+        r.push_back('0' + (v & 1));
+        v >>= 1;
+    }
+    reverse(r.begin(), r.end());
+    return r;
 }
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 
     int N;
     cin >> N;
-
     for (int i = 1; i <= N; i++) {
-        string X, base;
-        cin >> X >> base;
+        string X, Y;
+        cin >> X >> Y;
+        int base = (Y == "bin" ? 2 : Y == "dec" ? 10 : 16);
+        unsigned v = parse(X, base);
 
         cout << "Case " << i << ":\n";
-
-        if (base == "bin") {
-            int dec = bin_to_dec(X);
-            cout << dec << " dec\n";
-            cout << hex << dec << " hex\n";
-        } else if (base == "dec") {
-            int dec = stoi(X);
-            cout << hex << dec << " hex\n";
-            cout << dec_to_bin(dec) << " bin\n";
-        } else if (base == "hex") {
-            int dec;
-            stringstream ss;
-            ss << hex << X;
-            ss >> dec;
-            cout << dec << " dec\n";
-            cout << dec_to_bin(dec) << " bin\n";
-        }
-
-        cout << '\n';
+        if (base != 10) cout << v << " dec\n";
+        if (base != 16) cout << toHex(v) << " hex\n";
+        if (base != 2)  cout << toBin(v) << " bin\n";
+        cout << "\n";
     }
-
     return 0;
 }
