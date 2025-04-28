@@ -1,8 +1,6 @@
 ## Bitwise:
-
 - https://judge.beecrowd.com/pt/problems/view/1026  (fácil)
 - https://www.beecrowd.com.br/judge/pt/problems/view/1193  (difícil)
-- https://www.beecrowd.com.br/judge/pt/problems/view/1387
 - https://www.beecrowd.com.br/judge/pt/problems/view/1837
 - https://leetcode.com/problems/single-number  
 - https://leetcode.com/problems/number-of-1-bits  
@@ -15,30 +13,30 @@
 - https://codeforces.com/problemset/problem/486/A  
 - https://codeforces.com/problemset/problem/242/E  
 
-## Listas, Pilhas e Filas (EDA no geral)
 
+## Listas, Pilhas e Filas (EDA no geral)
 ### Listas
-https://judge.beecrowd.com/pt/problems/view/1215
-https://codeforces.com/problemset/problem/650/A
+- https://judge.beecrowd.com/pt/problems/view/1215
+- https://codeforces.com/problemset/problem/650/A
 
 ### Pilhas
-https://judge.beecrowd.com/pt/problems/view/1068
-https://leetcode.com/problems/valid-parentheses
-https://leetcode.com/problems/min-stack
-https://leetcode.com/problems/evaluate-reverse-polish-notation
-https://leetcode.com/problems/implement-stack-using-queues
+- https://judge.beecrowd.com/pt/problems/view/1068
+- https://leetcode.com/problems/valid-parentheses
+- https://leetcode.com/problems/min-stack
+- https://leetcode.com/problems/evaluate-reverse-polish-notation
+- https://leetcode.com/problems/implement-stack-using-queues
 
 ### Filas
-https://leetcode.com/problems/implement-queue-using-stacks
-https://judge.beecrowd.com/pt/problems/view/1198
-https://judge.beecrowd.com/pt/problems/view/1743
+- https://leetcode.com/problems/implement-queue-using-stacks
+- https://judge.beecrowd.com/pt/problems/view/1198
+- https://judge.beecrowd.com/pt/problems/view/1743
 
 ### Grafos (Básico)
-https://judge.beecrowd.com/pt/problems/view/1082
-https://codeforces.com/problemset/problem/901/C
+- https://judge.beecrowd.com/pt/problems/view/1082
+- https://codeforces.com/problemset/problem/901/C
+
 
 ## Algoritmos de Busca
-
 ### Busca Sequencial
 - https://judge.beecrowd.com/pt/problems/view/1049
 - https://judge.beecrowd.com/pt/problems/view/1178
