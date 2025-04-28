@@ -1,7 +1,6 @@
 ## Bitwise:
 - https://judge.beecrowd.com/pt/problems/view/1026  (fácil)
-- https://www.beecrowd.com.br/judge/pt/problems/view/1193  (difícil)
-- https://www.beecrowd.com.br/judge/pt/problems/view/1837
+- https://www.beecrowd.com.br/judge/pt/problems/view/1193  (média/chata)
 - https://leetcode.com/problems/single-number  
 - https://leetcode.com/problems/number-of-1-bits  
 - https://leetcode.com/problems/reverse-bits  
