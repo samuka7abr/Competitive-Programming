@@ -17,7 +17,7 @@
 
 ## Listas, Pilhas e Filas (EDA no geral)
 
-## Listas
+### Listas
 https://judge.beecrowd.com/pt/problems/view/1215
 https://codeforces.com/problemset/problem/650/A
 
