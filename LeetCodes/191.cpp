@@ -6,4 +6,8 @@ class Solution {
         }
     };
 
+//Solução usando & comparator
 
+int hammingWeight(int n){
+    ;
+}
