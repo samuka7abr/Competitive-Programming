@@ -1,3 +1,4 @@
+//melhor em complexidade: O(1) tanto espacial como temporal
 class Solution {
     public:
         int hammingWeight(int n) {
@@ -7,7 +8,7 @@ class Solution {
     };
 
 //Solução usando & comparator
-
+//complexidade: O(log n) temporal O(1) espacial
 int hammingWeight(int n){
     int uns = 0;
 
