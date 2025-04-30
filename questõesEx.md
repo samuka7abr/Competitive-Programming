@@ -1,6 +1,6 @@
 ## Bitwise:
 - https://judge.beecrowd.com/pt/problems/view/1026  (fácil)
-- https://leetcode.com/problems/single-number  
+- https://leetcode.com/problems/single-number  (fácil)
 - https://leetcode.com/problems/number-of-1-bits  
 - https://leetcode.com/problems/reverse-bits  
 - https://leetcode.com/problems/bitwise-and-of-numbers-range  
