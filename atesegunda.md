@@ -3,7 +3,8 @@
 - https://judge.beecrowd.com/pt/problems/view/1026 (fácil)
 - https://leetcode.com/problems/single-number (fácil)
 - https://leetcode.com/problems/number-of-1-bits 
-  > Solução 1: função __builtin_popcount() (extra fácil) Solução 2: Usar & com mask de 1ull (fácil)
+  > Solução 1: função __builtin_popcount() (extra fácil)
+  > Solução 2: Usar & com mask de 1ull (fácil)
 - https://leetcode.com/problems/reverse-bits
 
 ## Quinta-feira, 01/05/2025 (3 problemas de Bitwise)
