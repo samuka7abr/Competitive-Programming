@@ -5,7 +5,7 @@
 - https://leetcode.com/problems/number-of-1-bits  
   > **Solução 1:** função `__builtin_popcount()` *(extra fácil)*  
   > **Solução 2:** usar `&` com máscara de `1ull` *(fácil)*
-- https://leetcode.com/problems/reverse-bits
+- https://leetcode.com/problems/reverse-bits *(média)*
 
 ## Quinta-feira, 01/05/2025 (3 problemas de Bitwise)
 
