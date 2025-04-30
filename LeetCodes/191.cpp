@@ -9,5 +9,12 @@ class Solution {
 //Solução usando & comparator
 
 int hammingWeight(int n){
-    ;
+    int uns = 0;
+
+    while(n){
+        uns += n & 1;
+        n >>= 1;
+    }
+    
+    return uns;
 }
