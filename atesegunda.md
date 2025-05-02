@@ -9,8 +9,8 @@
 
 ## Quinta-feira, 01/05/2025 (3 problemas de Bitwise)
 
-- https://leetcode.com/problems/bitwise-and-of-numbers-range
-- https://leetcode.com/problems/counting-bits
+- https://leetcode.com/problems/bitwise-and-of-numbers-range *(fácil)*
+- https://leetcode.com/problems/counting-bits *(fácil)*
 - https://codeforces.com/problemset/problem/242/E
 
 ## Sexta-feira, 02/05/2025 (3 problemas de Busca Sequencial & Binária)
