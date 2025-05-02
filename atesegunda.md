@@ -9,7 +9,7 @@
 
 ## Quinta-feira, 01/05/2025 (3 problemas de Bitwise)
 
-- https://leetcode.com/problems/bitwise-and-of-numbers-range *(fácil)*
+- https://leetcode.com/problems/bitwise-and-of-numbers-range *(média)*
 - https://leetcode.com/problems/counting-bits *(fácil)*
 - https://codeforces.com/problemset/problem/242/E
 
