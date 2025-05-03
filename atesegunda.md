@@ -15,8 +15,8 @@
 
 ## Sexta-feira, 02/05/2025 (3 problemas de Busca Sequencial & Binária)
 
-- https://leetcode.com/problems/remove-element/
-- https://leetcode.com/problems/binary-search
+- https://leetcode.com/problems/remove-element/ 
+- https://leetcode.com/problems/binary-search *(fácil)*
 - https://leetcode.com/problems/search-in-rotated-sorted-array
 
 ## Sábado, 03/05/2025 (2 problemas de Busca Binária)
