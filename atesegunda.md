@@ -24,7 +24,7 @@
 - https://leetcode.com/problems/find-peak-element
   > **Solução 1:** usando busca binária recursiva *(médio)*
   > **Solução 2:** fazendo busca linear *(fácil)*
-- https://leetcode.com/problems/search-a-2d-matrix
+- https://leetcode.com/problems/search-a-2d-matrix *(médio)*
 
 ## Domingo, 04/05/2025 (2 problemas de Ordenação em Tempo Linear)
 
