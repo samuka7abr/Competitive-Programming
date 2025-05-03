@@ -30,13 +30,15 @@
 
 ## Algoritmos de Busca
 ### Busca Sequencial
-- https://leetcode.com/problems/remove-element/
+- https://leetcode.com/problems/remove-element/ *(fácil)*
 
 ### Busca Binária
-- https://leetcode.com/problems/binary-search  
-- https://leetcode.com/problems/search-in-rotated-sorted-array  
+- https://leetcode.com/problems/binary-search *(fácil)* 
+- https://leetcode.com/problems/search-in-rotated-sorted-array *(fácil)* 
 - https://leetcode.com/problems/find-peak-element  
-- https://leetcode.com/problems/search-a-2d-matrix  
+  > **Solução 1:** usando busca binária recursiva *(médio)*
+  > **Solução 2:** fazendo busca linear *(fácil)*
+- https://leetcode.com/problems/search-a-2d-matrix  *(médio)*
 
 ### Busca em Estruturas
 - https://leetcode.com/problems/number-of-islands  
