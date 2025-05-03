@@ -30,7 +30,7 @@
 
 ## Algoritmos de Busca
 ### Busca Sequencial
-- https://leetcode.com/problems/linear-search
+- https://leetcode.com/problems/remove-element/
 
 ### Busca Binária
 - https://leetcode.com/problems/binary-search  
