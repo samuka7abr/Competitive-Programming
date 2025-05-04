@@ -40,6 +40,7 @@
   > **Solução 2:** fazendo busca linear *(fácil)*
 - https://leetcode.com/problems/search-a-2d-matrix  *(médio)*
 - https://codeforces.com/problemset/problem/750/A *(fácil)*
+- https://codeforces.com/problemset/problem/1915/C
 
 ### Busca em Estruturas
 - https://leetcode.com/problems/number-of-islands  
