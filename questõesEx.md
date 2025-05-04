@@ -46,8 +46,8 @@
 - https://leetcode.com/problems/minimum-depth-of-binary-tree  
 
 ## Ordenação em Tempo Linear
-- https://leetcode.com/problems/sort-colors  
-- https://leetcode.com/problems/relative-sort-array  
+- https://leetcode.com/problems/sort-colors  *(fácil)*
+- https://leetcode.com/problems/relative-sort-array  *(médio/chato)*
 - https://leetcode.com/problems/maximum-gap  
 
 ## Árvores Binárias de Busca com Balanceamento
