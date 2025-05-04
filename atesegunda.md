@@ -28,8 +28,8 @@
 
 ## Domingo, 04/05/2025 (2 problemas de Ordenação em Tempo Linear)
 
-- https://leetcode.com/problems/sort-colors
-- https://leetcode.com/problems/relative-sort-array
+- https://leetcode.com/problems/sort-colors *(fácil)*
+- https://leetcode.com/problems/relative-sort-array *(médio/chato)*
 
 ## Segunda-feira, 05/05/2025 (1 problema de Ordenação em Tempo Linear)
 
