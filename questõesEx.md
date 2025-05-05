@@ -36,8 +36,8 @@
 - https://leetcode.com/problems/binary-search *(fácil)* 
 - https://leetcode.com/problems/search-in-rotated-sorted-array *(fácil)* 
 - https://leetcode.com/problems/find-peak-element  
-  > **Solução 1:** usando busca binária recursiva *(médio)*
-  > **Solução 2:** fazendo busca linear *(fácil)*
+  > **Solução 1:** usando `busca binária recursiva` *(médio)*
+  > **Solução 2:** fazendo `busca linear` *(fácil)*
 - https://leetcode.com/problems/search-a-2d-matrix  *(médio)*
 - https://codeforces.com/problemset/problem/750/A *(fácil)*
 - https://codeforces.com/problemset/problem/2008/C *(médio)*
