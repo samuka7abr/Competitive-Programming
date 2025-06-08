@@ -12,6 +12,27 @@ const double PI = acos(-1.0);
 
 int main(){
     otim;
-    
+    int T;
+    cin >> T;
+    while (T--) {
+        int n, x;
+        cin >> n >> x;
+        vector<int> a(n);
+        for (int i = 0; i < n; i++) {
+            cin >> a[i];
+        }
+        int primeiro = -1, ultimo = -1;
+        for (int i = 0; i < n; i++) {
+            if (a[i] == 1) {
+                if (primeiro == -1) primeiro = i;
+                ultimo = i;
+            }
+        }
+        if (ultimo - primeiro + 1 <= x) {
+            cout << "YES\n";
+        } else {
+            cout << "NO\n";
+        }
+    }
     return 0;
 }
