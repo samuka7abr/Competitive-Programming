@@ -12,6 +12,40 @@ const double PI = acos(-1.0);
 
 int main(){
     otim;
-    
+    int t;
+    cin >> t;
+    for(int T = 0; T < t; T++){
+        ll n;
+        cin >> n;
+        vector<ll> vet(n+1);
+        for(ll i = 1; i <= n; i++){
+            cin >> vet[i];
+        }
+        ll d = n*n - 1;                   
+        ll numY = n*vet[1] - vet[n];         
+        ll numX = n*vet[n] - vet[1];         
+
+        if (numY < 0 || numX < 0 || numY % d != 0 || numX % d != 0) {
+            cout << "NO\n";
+            continue;
+        }
+        ll y = numY / d;
+        ll x = numX / d;
+
+        bool ok = true;
+        for(ll i = 1; i <= n; i++){
+            ll esperado = i*x + (n - i + 1)*y;
+            if (vet[i] != esperado) {
+                ok = false;
+                break;
+            }
+        }
+
+        if(ok){
+            cout << "YES" << endl;
+        }else{
+            cout << "NO" << endl;
+        }
+    }
     return 0;
 }
